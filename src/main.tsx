@@ -1,8 +1,8 @@
 import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-import App from './app/App.tsx';
+import ReactDom from 'react-dom/client';
+import App from './app/App';
 
-createRoot(document.getElementById('root')!).render(
+ReactDom.createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <App />
   </StrictMode>

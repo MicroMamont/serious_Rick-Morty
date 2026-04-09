@@ -14,8 +14,8 @@
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
     "noEmit": true,
-    "isolatedModules": true, 
-    "resolveJsonModule": true,   
+    "isolatedModules": true,
+    "resolveJsonModule": true,
 
     /* Linting */
     "strict": true,
@@ -26,5 +26,5 @@
     "noUncheckedSideEffectImports": true
   },
   "include": ["vite.config.ts"],
-  "exclude": ["node_modules"],
+  "exclude": ["node_modules"]
 }

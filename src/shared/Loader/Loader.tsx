@@ -3,12 +3,13 @@ import { SIZE } from './constants';
 import './Loader.css';
 
 type LoaderProps = {
-  size: 's' | 'b';
+  size: 'small' | 'big';
   text?: string;
 };
 
 export function Loader({ size, text }: LoaderProps) {
-  const { height, width } = size === 's' ? { ...SIZE.s } : { ...SIZE.b };
+  const { height, width } =
+    size === 'small' ? { ...SIZE.small } : { ...SIZE.big };
 
   return (
     <div className='LoaderWrapper'>

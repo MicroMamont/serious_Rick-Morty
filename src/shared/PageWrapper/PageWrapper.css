@@ -45,11 +45,9 @@
     background-color: transparent;
     border-radius: 8px;
     border-width: 1px;
-
 }
 
 .NavButtonSpan {
-    font-family: inherit;
     font-size: 25px;
     color: #000000;
     opacity: 60%;

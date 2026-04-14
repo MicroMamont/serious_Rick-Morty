@@ -1,10 +1,15 @@
+import { PageWrapper } from '@shared';
+import { RouterProvider } from 'react-router';
+import router from '../router/router';
 import './App.css';
 
 function App() {
   return (
-    <>
-      <h1>Rick & Morty</h1>
-    </>
+    <div className='appWrapper'>
+      <PageWrapper>
+        <RouterProvider router={router} />
+      </PageWrapper>
+    </div>
   );
 }
 

@@ -27,7 +27,7 @@ export function NavBar() {
         onClick={onLangSwitcherClick}
         className='NavButton'
       >
-        <span className='NavButtonSpan'>{lang}</span>
+        <span className='NavButtonLang'>{lang}</span>
       </Button>
     </div>
   );

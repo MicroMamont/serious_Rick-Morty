@@ -1,16 +1,13 @@
-import { PageWrapper } from '@shared';
-import { BackButton } from './BackLink/BackLink.tsx';
+import { BackButton } from './BackLink/BackLink';
 import './CharacterInfo.css';
 
 export function CharacterInfo() {
   return (
-    <PageWrapper>
-      <>
-        <BackButton />
-        <div className='CharacterInfoWrapper'>
-          <h1> Card </h1>
-        </div>
-      </>
-    </PageWrapper>
+    <>
+      <BackButton />
+      <div className='CharacterInfoWrapper'>
+        <h1> Card </h1>
+      </div>
+    </>
   );
 }
